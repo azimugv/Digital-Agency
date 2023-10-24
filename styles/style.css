@@ -157,3 +157,43 @@
 .appointment-desc{
     width: 60%;
 }
+
+/* blog */
+
+.blog-title{
+    color: #000;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.card{
+    width: 200px;
+    height: 300px;
+    padding: 15px;
+    box-shadow: 4px 4px 8px 4px rgba(16, 29, 207, 0.452);
+    border-radius: 10px;
+}
+
+.blog-img{
+    width: 100%;
+    border-radius: 10px;
+}
+.card-title{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.cards{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.blog-container{
+    width: 80%;
+    margin: auto;
+    background-color: gray;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
