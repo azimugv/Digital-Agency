@@ -2,3 +2,25 @@
     margin: 0;
     padding: 0;
 }
+
+/* nav-container */
+
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: gray;
+    padding: 20px;
+}
+.menus{
+    display: flex;
+    list-style: none;
+}
+.menus li a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: #fff;
+}
+.menus li a:hover{
+    color: #000;
+}
